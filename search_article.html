@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文档查找</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper search">
+    <form action="search_result.php" method="post">
+        <a href="index.html" class="return_index">返回主页</a>
+        <input type="text" name="keyword" placeholder="请输入关键词"><br>
+        <input type="radio" name="search_condition" value="id" id="id"><label for="id">ID</label>
+        <input type="radio" name="search_condition" value="name" id="name"><label for="name">标题</label>
+        <input type="radio" name="search_condition" value="author" id="author"><label for="author">作者</label>
+        <input type="radio" name="search_condition" value="content" id="content"><label for="content">文章内容</label><br>
+        <input type="submit" value="提交">
+        <a href="index.html" class="return_index">返回主页</a>
+    </form>
+</div>
+</body>
+</html>
